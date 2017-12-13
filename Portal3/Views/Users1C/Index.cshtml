@@ -1,0 +1,7 @@
+﻿@using (Html.BeginForm())
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString")
+        @Html.ActionLink("Search", "ShowUsers", "Users1C")
+    </p>
+}
